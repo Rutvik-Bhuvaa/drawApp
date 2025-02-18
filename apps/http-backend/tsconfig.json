@@ -1,3 +1,8 @@
 {
-  "entends": "@repo/typescript-config/base.json"
+  "entends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true
+  }
 }
