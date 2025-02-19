@@ -1,5 +1,5 @@
 import express from "express";
-import jwt from "jsonwebtoken";
+import * as jwt from "jsonwebtoken";
 import { JWT_SECRET } from "./config";
 import { middleware } from "./middleware";
 
