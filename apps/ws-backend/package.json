@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "exports": {
+    "./config": "./src/config.ts"
+  },
   "scripts": {
     "build": "tsc -b",
     "start": "node ./dist/index.js",
     "dev": "npm run build && npm run start"
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*"
+    "@repo/typescript-config": "workspace:*",
+    "@repo/backend-common": "workspace:*"
   },
   "keywords": [],
   "author": "",
